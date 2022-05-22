@@ -35,7 +35,7 @@ Dropping down to powershell and converting doc and rtf files to pdfs
     |_|_| |_| .__/ \__,_|\__|
             |_|
     You need folders
-      d:/rtd
+      d:/rtf
       d:/pdf
     */
 
