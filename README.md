@@ -141,8 +141,8 @@ Dropping down to powershell and converting doc and rtf files to pdfs
     |_|
     */
 
-    %let _inpRtf=d:/pdf/class.pdf;
-    %let _outPdf=d:/txt/class.txt;
+    %let _outPdf=d:/pdf/class.pdf;
+    %let _inpRtf=d:/rtf/class.rtf;
 
     %utlfkil(d:/pdf/class.pdf); /* this is required replace option not specified */
 
