@@ -100,7 +100,7 @@ Dropping down to powershell and converting doc and rtf files to pdfs
 
     /**************************************************************************************************************************/
     /*                                                                                                                        */
-    /*  d:/pdf/class.pdf                                                                                                      */
+    /*  d:/txt/class.txt                                                                                                      */
     /*                                                                                                                        */
     /*                                                                                                                        */
     /*  Title 1                                                                                                               */
@@ -141,8 +141,8 @@ Dropping down to powershell and converting doc and rtf files to pdfs
     |_|
     */
 
-    %let _inpRtf=d:/rtf/class.rtf;
-    %let _outPdf=d:/pdf/class.pdf;
+    %let _inpRtf=d:/pdf/class.pdf;
+    %let _outPdf=d:/txt/class.txt;
 
     %utlfkil(d:/pdf/class.pdf); /* this is required replace option not specified */
 
